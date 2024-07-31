@@ -1,0 +1,53 @@
+---
+layout: archive
+title: "Selected Talks"
+permalink: /talks/
+author_profile: true
+---
+
+{% if site.talkmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+<li>"Towards Generalized Medical Image Analysis".
+  <div class="entry">
+    <ul>
+      <li>2020.07.17, at <a href="https://www.stanford.edu/">Stanford University</a>, Palo Alto, California, USA,
+        								hosted by <a href="http://med.stanford.edu/xinglab.html">Prof. Lei Xing</a>.</li>
+      <li>2020.06.15, at <a href="https://www.vanderbilt.edu/">Vanderbilt University</a>, Nashville, Tennessee, USA,
+        								hosted by <a href="https://my.vanderbilt.edu/huolab/">Prof. Yuankai Huo</a> and
+        								<a href="https://my.vanderbilt.edu/masi/">Prof. Bennett Landman</a>.</li>
+	  </ul>
+  </div>
+</li>
+
+<li>"Prior-aware Neural Network for Partially-Supervised Multi-Organ Segmentation
+  and Hyper-Pairing Network for Multi-Phase PDAC Segmentation".
+<!--   <a href="../Talks/JHU&PAII workshop.pptx">[Slides]</a> -->
+  <div class="entry">
+    <ul>
+      <li>2019.09.13, at <a href="http://www.paii-labs.com/">PAII Inc.</a>, Bethesda, Maryland, USA,
+        								hosted by <a href="http://www.cs.jhu.edu/~lelu/">Prof. Le Lu</a>.</li
+	  </ul>
+  </div>
+</li>
+
+<li>"Segmentation from Abdominal CT Scan: Pancreas, Cyst and Beyond".
+  <a href="../Talks/Xie_2017_SegCT.pptx">[Slides]</a>
+  <div class="entry">
+    <ul>
+      <li>2017.07.26, at Medical Computer Vision and Health Informatics Workshop (CVPR 2017), Honolulu, Hawaii, USA,
+        								presented by <a href="http://www.cs.jhu.edu/~ayuille/">Prof. Alan Yuille</a>,
+        								hosted by <a href="http://www.cs.jhu.edu/~lelu/">Prof. Le Lu</a>.</li>
+      <li>2017.04.06, at Medical Imaging Analysis Seminar, Baltimore, Maryland, USA,
+        								hosted by <a href="http://www.cs.jhu.edu/~ayuille/">Prof. Alan Yuille</a> and
+        								<a href="http://www.cs.jhu.edu/~hager/">Prof. Gregory Hager</a>.</li>
+	  </ul>
+  </div>
+</li>
